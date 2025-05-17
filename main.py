@@ -2,6 +2,17 @@ import os
 import re
 from pathlib import Path
 
+# USER: specify assets folder
+assets_folders = ["assets/"]
+
+# USER: specify all relevant folders that include JSON files
+#   if there are no relevant JSON folders, use empty list: json_folders = []
+json_folders = []
+
+# USER: specify all relevant individual JSON files
+#  if there are no relevant individual JSON files, use empty list: json_files = []
+json_files = ["items.json"]
+
 # NOTE:
 # for detecting asset filenames in the JSON, the script requires that your
 # assets filenames include an extension that starts with a period,
@@ -90,21 +101,10 @@ def main():
 
     # Check assets, specifying an output label and a file extension
     check_assets(asset_label="images", asset_extension="png")
-    check_assets(asset_label="soundfiles", asset_extension="mp3")
+    check_assets(asset_label="sound files", asset_extension="mp3")
     check_assets(asset_label="videos", asset_extension="mp4")
 
 
 if __name__ == "__main__":
-
-    # USER: specify assets folder
-    assets_folders = ["assets/"]
-
-    # USER: specify all relevant folders that include JSON files
-    #   if there are no relevant JSON folders, use empty list: json_folders = []
-    json_folders = []
-
-    # USER: specify all relevant individual JSON files
-    #  if there are no relevant individual JSON files, use empty list: json_files = []
-    json_files = ["items.json"]
 
     main()
