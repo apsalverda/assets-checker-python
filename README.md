@@ -2,7 +2,7 @@
 
 This is a simple tool to facilitate content management and content development.
 
-The script reports all assets referenced in content JSON files that are missing.
+The script identifies missing assets referenced in content JSON.
 
 #### Requirements
 
