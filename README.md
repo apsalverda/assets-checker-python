@@ -2,13 +2,13 @@
 
 This is a simple tool that identifies missing assets (such as image, audio and video files) referenced in content JSON.
 
-#### Example output
+### Example output
 
 Output generated when running `python main.py` for the files included in this repo.
 
 ![image](https://github.com/user-attachments/assets/b0d9c671-0d30-40b6-942c-b9449509b666)
 
-#### Usage
+### Usage
 
 Modify the Python script according to your requirements.
 
