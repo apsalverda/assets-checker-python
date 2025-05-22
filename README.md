@@ -1,6 +1,6 @@
 ### Introduction
 
-This is a simple tool that identifies missing assets (such as image, audio and video files) referenced in content JSON.
+This tool identifies missing assets (such as image, audio and video files) referenced in content JSON.
 
 ### Example output
 
