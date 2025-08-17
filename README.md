@@ -2,6 +2,8 @@
 
 This tool identifies missing assets (such as image, audio and video files) referenced in content JSON.
 
+👉 If you have suggestions for improvements, please submit a pull request, report an issue, or contact me directly on [LinkedIn](https://www.linkedin.com/in/anne-pier-salverda-37ab7042/).
+
 ### Example output
 
 Output generated when running `python main.py` for the files included in this repo.
