@@ -13,7 +13,7 @@
 			"item_type": "video",
 			"background_image": "bgimg.png",
 			"text": "Which bird do you see?",
-			"sound_file": "warbling-vireo.mp4",
+			"video_file": "warbling-vireo.mp4",
 			"correct_response": "warbling vireo"
 		}		
 	]
